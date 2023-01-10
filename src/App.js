@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import'swiper/swiper.min.css';
+import './App.scss';
+import {BrowserRouter ,Route} from 'react-router-dom'
+import Header from './componenent/header/Header';
+import Footer from './componenent/footer/Footer';
+import Routess from './config/Routess';
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter >
+    <Route  render={props=>(
+    <>
+       <Header {...props}/>
+       <Routess/>
+       <Footer/>
+    </>
+   )}/>
+
+  </BrowserRouter>
+     
+      
+    
+
+
+ 
   );
+ 
 }
 
 export default App;
