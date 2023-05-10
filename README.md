@@ -1,12 +1,16 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
+<br>
 <img width="960" alt="Screenshot 2023-05-10 221817" src="https://github.com/grouciyacine/Movies-clone/assets/107037694/8875279c-e4ff-430e-b20f-cf5ff7a3c7f5">
-
-
+<br>
+<br>
+<br>
 <img width="960" alt="Screenshot 2023-05-10 221757" src="https://github.com/grouciyacine/Movies-clone/assets/107037694/1553d07e-f209-466c-a694-ecb33a7b1fa6">
-
-
+<br>
+<br>
+<br>
 <img width="960" alt="Screenshot 2023-05-10 221711" src="https://github.com/grouciyacine/Movies-clone/assets/107037694/9361e59c-b5b7-43a9-80b6-84cd7f842f81">
 
 ## Available Scripts
